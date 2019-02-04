@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#outer {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+  border: 15px ridge navy;
+  background-color: forestgreen;
+}
+#badge {
+  background-color: orangered;
+  color: ivory;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 2px 3px;
+  position: absolute;
+  top: -19px;
+  left: 40%;
+}
+#time {
+  font-size: 3em;
+  margin-top: 8.5%;
+  padding-top: 3px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: indigo;
+  font-weight: bolder;
+}
